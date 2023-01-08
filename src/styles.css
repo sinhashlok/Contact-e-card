@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(35, 37, 44, 1);
+  color: white;
+  padding: 7rem 0;
+  text-align: center;
+
+  font-family: Inter;
+}
+
+.card {
+  background-color: rgba(26, 27, 33, 1);
+  margin: auto;
+  width: 20%;
+  border-radius: 1rem;
+}
+
+.profileImg {
+  width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
+  border: 0;
+}
+
+.name {
+  padding: 1.5rem 0 1rem 0;
+}
+.headerTitle {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.profession {
+  font-weight: 300;
+  color: rgba(243, 191, 153, 1);
+  font-size: 0.8rem;
+}
+
+.email {
+  margin-top: 0.6rem;
+  font-weight: 300;
+}
+
+/* Buttons */
+.buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px 10px black;
+  -webkit-transition: 250ms all;
+}
+
+.emailButtons {
+  margin-right: 0.5rem;
+  height: 2.5rem;
+  width: 8.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.icon {
+  margin: 0 0.4rem 0 0;
+  width: 0.5rem;
+}
+
+.linkedin {
+  margin-left: 0.5rem;
+  height: 2.5rem;
+  width: 8.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(80, 147, 226, 1);
+  color: white;
+}
+
+/* Content */
+.content {
+  margin: auto;
+  width: 75%;
+  margin-top: 2.2rem;
+}
+.subHead {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.subContent {
+  margin-top: 0.3rem;
+  text-align: left;
+  font-weight: 300;
+  font-size: 0.75rem;
+  letter-spacing: 0.03rem;
+}
+.about {
+  margin-bottom: 1rem;
+}
+.interests {
+  margin-bottom: 2.2rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: rgba(22, 22, 25, 1);
+  padding: 1rem 3rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.icons {
+  background-color: rgba(145, 142, 155, 1);
+  color: #000;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
